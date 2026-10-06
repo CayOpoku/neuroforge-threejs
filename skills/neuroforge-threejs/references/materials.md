@@ -1,9 +1,6 @@
----
-name: threejs-materials
-description: Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.
----
-
 # Three.js Materials
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -515,6 +512,6 @@ material.dispose();
 
 ## See Also
 
-- `threejs-textures` - Texture loading and configuration
-- `threejs-shaders` - Custom shader development
-- `threejs-lighting` - Light interaction with materials
+- `textures.md` - Texture loading and configuration
+- `shaders.md` - Custom shader development
+- `lighting.md` - Light interaction with materials

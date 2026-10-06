@@ -1,9 +1,6 @@
----
-name: threejs-animation
-description: Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.
----
-
 # Three.js Animation
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -547,6 +544,6 @@ function getClip(name) {
 
 ## See Also
 
-- `threejs-loaders` - Loading animated GLTF models
-- `threejs-fundamentals` - Clock and animation loop
-- `threejs-shaders` - Vertex animation in shaders
+- `loaders.md` - Loading animated GLTF models
+- `fundamentals.md` - Clock and animation loop
+- `shaders.md` - Vertex animation in shaders

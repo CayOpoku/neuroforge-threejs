@@ -1,9 +1,6 @@
----
-name: threejs-textures
-description: Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization.
----
-
 # Three.js Textures
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -623,6 +620,6 @@ const textureSize = isMobile ? 1024 : 2048;
 
 ## See Also
 
-- `threejs-materials` - Applying textures to materials
-- `threejs-loaders` - Loading texture files
-- `threejs-shaders` - Custom texture sampling
+- `materials.md` - Applying textures to materials
+- `loaders.md` - Loading texture files
+- `shaders.md` - Custom texture sampling

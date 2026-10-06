@@ -1,9 +1,6 @@
----
-name: threejs-interaction
-description: Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences.
----
-
 # Three.js Interaction
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -655,6 +652,6 @@ clickables.push(collisionMesh);
 
 ## See Also
 
-- `threejs-fundamentals` - Camera and scene setup
-- `threejs-animation` - Animating interactions
-- `threejs-shaders` - Visual feedback effects
+- `fundamentals.md` - Camera and scene setup
+- `animation.md` - Animating interactions
+- `shaders.md` - Visual feedback effects

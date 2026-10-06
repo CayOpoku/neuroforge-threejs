@@ -1,9 +1,6 @@
----
-name: threejs-geometry
-description: Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.
----
-
 # Three.js Geometry
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -543,6 +540,6 @@ geometry.dispose();
 
 ## See Also
 
-- `threejs-fundamentals` - Scene setup and Object3D
-- `threejs-materials` - Material types for meshes
-- `threejs-shaders` - Custom vertex manipulation
+- `fundamentals.md` - Scene setup and Object3D
+- `materials.md` - Material types for meshes
+- `shaders.md` - Custom vertex manipulation

@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "organization": "NeuroForge Three.js",
+  "origin-date": "April 2026",
+  "last-updated": "October 2026",
+  "authors": [
+    {
+      "name": "CloudAI-X",
+      "github": "https://github.com/CloudAI-X",
+      "role": "Author of the Three.js API skill files (threejs-skills, MIT) bundled as references/fundamentals.md through references/interaction.md"
+    },
+    {
+      "name": "cayopoku",
+      "github": "https://github.com/cayopoku",
+      "role": "NeuroForge workflow, art direction, motion, performance and stack layer"
+    }
+  ],
+  "abstract": "NeuroForge Three.js is a specialised engineering system for building award-level, immersive 3D websites with Three.js in vanilla three, TresJS (Vue/Nuxt), or React Three Fiber. It enforces a severity-tiered Analysis First workflow using NeuroForge memory files (concept, art direction, scroll storyboard, then code), holds every scene to senior creative-developer standards (art-directed look-dev, damped scroll and cursor choreography, a planned signature interaction, a designed loading moment, mobile re-composition), enforces a 60fps mid-range-phone performance budget with compressed assets and clean disposal, keeps content DOM-first and accessible with reduced-motion support, and closes every analysis with a 3D Quality Verdict. Bundles a ten-part Three.js API reference.",
+  "upstream": {
+    "name": "CloudAI-X/threejs-skills",
+    "url": "https://github.com/CloudAI-X/threejs-skills",
+    "license": "MIT",
+    "path": "skills/neuroforge-threejs/references"
+  },
+  "references": [
+    "https://threejs.org/docs/",
+    "https://threejs.org/manual/",
+    "https://github.com/CloudAI-X/threejs-skills",
+    "https://docs.tresjs.org/",
+    "https://r3f.docs.pmnd.rs/",
+    "https://drei.docs.pmnd.rs/",
+    "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+    "https://lenis.darkroom.engineering/",
+    "https://gltf-transform.dev/",
+    "https://www.awwwards.com/websites/3d/"
+  ]
+}

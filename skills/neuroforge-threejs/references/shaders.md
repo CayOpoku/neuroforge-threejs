@@ -1,9 +1,6 @@
----
-name: threejs-shaders
-description: Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.
----
-
 # Three.js Shaders
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -637,6 +634,6 @@ color = mix(colorB, colorA, step(0.5, value));
 
 ## See Also
 
-- `threejs-materials` - Built-in material types
-- `threejs-postprocessing` - Full-screen shader effects
-- `threejs-textures` - Texture sampling in shaders
+- `materials.md` - Built-in material types
+- `postprocessing.md` - Full-screen shader effects
+- `textures.md` - Texture sampling in shaders

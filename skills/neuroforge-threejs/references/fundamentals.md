@@ -1,9 +1,6 @@
----
-name: threejs-fundamentals
-description: Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms.
----
-
 # Three.js Fundamentals
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -483,6 +480,6 @@ scene.add(lod);
 
 ## See Also
 
-- `threejs-geometry` - Geometry creation and manipulation
-- `threejs-materials` - Material types and properties
-- `threejs-lighting` - Light types and shadows
+- `geometry.md` - Geometry creation and manipulation
+- `materials.md` - Material types and properties
+- `lighting.md` - Light types and shadows

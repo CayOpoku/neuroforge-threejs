@@ -1,9 +1,6 @@
----
-name: threejs-lighting
-description: Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.
----
-
 # Three.js Lighting
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -476,6 +473,6 @@ decorMesh.castShadow = false; // Small objects often don't need to cast
 
 ## See Also
 
-- `threejs-materials` - Material light response
-- `threejs-textures` - Lightmaps and environment maps
-- `threejs-postprocessing` - Bloom and other light effects
+- `materials.md` - Material light response
+- `textures.md` - Lightmaps and environment maps
+- `postprocessing.md` - Bloom and other light effects

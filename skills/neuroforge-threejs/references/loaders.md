@@ -1,9 +1,6 @@
----
-name: threejs-loaders
-description: Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress.
----
-
 # Three.js Loaders
+
+> API reference from [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) — part of **neuroforge-threejs**. Verify against the installed `three` version; for craft and workflow see the router `SKILL.md`.
 
 ## Quick Start
 
@@ -618,6 +615,6 @@ loadModel("model.glb").then((gltf) => {
 
 ## See Also
 
-- `threejs-textures` - Texture configuration
-- `threejs-animation` - Playing loaded animations
-- `threejs-materials` - Material from loaded models
+- `textures.md` - Texture configuration
+- `animation.md` - Playing loaded animations
+- `materials.md` - Material from loaded models
